@@ -7,7 +7,10 @@ export default function renderScreen(screen, requestAnimationFrame) {
 		ctx.fillRect(100, 400, 100, 100)
 
 		ctx.fillStyle = 'blue'
-		ctx.fillRect(250, 400, 100, 100)
+        ctx.fillRect(250, 400, 100, 100)
+        
+        ctx.fillStyle = 'green'
+		ctx.fillRect(600, 200, 100, 100)
 
 		const sword = new Image()
  	 	sword.src = 'img/sword.png'
@@ -15,7 +18,7 @@ export default function renderScreen(screen, requestAnimationFrame) {
 
 		const shield = new Image()
  	 	shield.src = 'img/shield.png'
-  	ctx.drawImage(shield, 268, 418)
+		ctx.drawImage(shield, 268, 418)
 
     requestAnimationFrame(() => {
         renderScreen(screen, requestAnimationFrame)

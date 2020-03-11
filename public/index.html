@@ -30,7 +30,8 @@
 					const screen = document.getElementById('screen')
 					renderScreen(screen, requestAnimationFrame)
 					MouseListener.subscribe(game.action)
-					game.subscribe(char.setact)
+                    game.subscribe(char.setbattle)
+                    char.subscribe(game.setstats)
 
         </script>
     </body>
