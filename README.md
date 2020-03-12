@@ -6,4 +6,4 @@ Se você tem algum conhecimento em designe pattern ou JS peço que de uma olhada
 
 An simple fight system made in JS.
 My tries learning JS, design patterns and game developing, i will be making uploads regularly
-If you have any knowledge  in design pattern or JS, i ask you to take a look on my files e share with me some updates that i can make.
+If you have any knowledge  in design pattern or JS, i ask you to take a look on my files and share with me some updates.
